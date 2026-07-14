@@ -1,0 +1,4 @@
+1001:DISABLED:HIGH:SQLI:threshold=5,window=60:UNION[ ]+SELECT
+1002:ENABLED:HIGH:SQLI:threshold=5,window=60:OR[ ]+1=1
+2001:ENABLED:MEDIUM:XSS:threshold=5,window=60:<script.*
+3001:ENABLED:HIGH:LFI:threshold=5,window=60:\.\./
